@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FiguredOut</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css" />
+    <!-- bsnav css -->
+    <link rel="stylesheet" type="text/css" href="css/bsnav.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-------------------------font------>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/images/favicon-0.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-------------------------------------------------------top header Starts----------------------------->
+    <div class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mr-auto">
+            <a href="#"> Email: queries@figuredout.info</a>
+          </div>
+          <div class="col-md-4 ml-auto text-right">
+            <a href="#">Gift CARD</a>
+            <a href="#">Track Order</a>
+            <a href="#">Language</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------------------------------top header ends------------------------------->
+
+    <!-----------------------------------------------------Header Starts--------------------------->
+    <header
+      class="navbar navbar-expand-lg bsnav pt-lg-0 pb-lg-0 position-sticky"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand"><img src="./assets/images/logo.png" /></a>
+        <button class="navbar-toggler toggler-elastic">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav navbar-mobile mr-0">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="./product.html" class="nav-link">Products<i class="caret"></i></a>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">item 1</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">item 2</a>
+                </li>
+                
+              </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link pl-2">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.amazon.ca/dp/B08QL3Y9MP" class="nav-link pl-2">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart_Count">1</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="bsnav-mobile">
+      <div class="bsnav-mobile-overlay"></div>
+      <div class="navbar"></div>
+    </div>
+    <!----------------------------------------------------Header Ends--------------------------->
+
+    <!----------------------------------------------SLIDER--------------------------------------->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/images/Resistance Band EBC/M-1.jpg"
+            class="d-block w-100"
+            alt="slider1"
+          />
+          <div
+            class="slider-heading carousel-caption d-none d-md-block text-left"
+          >
+            <p><a href="https://www.amazon.ca/dp/B08QL3Y9MP">SHOP NOW</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/Resistance Band EBC/M-3.jpg"
+            class="d-block w-100"
+            alt="slider2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/Resistance Band EBC/M-7.jpg"
+            class="d-block w-100"
+            alt="slider3"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <i class="fas fa-angle-left" aria-hidden="true"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <i class="fas fa-angle-right" aria-hidden="true"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!----------------------------------------------SLIDER End------------------------------------->
+    <!----------------------------------------------Featured Products Section-------------------->
+    <section class="featured-product-section container-fluid p7-5">
+      <div class="container p-0">
+        <div class="title-section text-center mb-5 mt-3">
+          <h2 class="title">Featured <span>Products</span></h2>
+        </div>
+        <!------------product row start-->
+        <div class="row justify-content-center">
+          <div
+            class="col-lg-4 col-md-4 col-sm-6 col-10 mx-auto mb-3 product-box"
+          >
+            <div class="product-img-box col-10 p-0 mx-auto overflow-hidden">
+              <a href="./product.html"><img src="./assets/images/A1 (8).jpg" />
+              <div class="hvr-box">
+                <a href="#">
+                  <div><i class="far fa-eye"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="far fa-heart"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                </a>
+              </div>
+            </a>
+            </div>
+            <div class="col-10 text-center mt-4 mx-auto product-title">
+              <a href="#">Resistance Band</a>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <h4>$22.99</h4>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+        <!------------product row end-->
+      </div>
+    </section>
+
+    <!---------------------------------------------------- Banner---------------------------------------->
+    <section class="banner-section container-fluid">
+      <div class="row justifu-content-center">
+        <div class="banner col-12">
+          <div class="banner-box ml-auto">
+            <h1 class="text-center">50% OFF</h1>
+            <p class="text-uppercase">All resistance Bands</p>
+            <p class="text-center">
+              <a href="https://www.amazon.ca/dp/B08QL3Y9MP" class="mx-auto mt-3 text-uppercase">Shop now</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------------------Card Section--------------------------------------------->
+    <section class="card-section container-fluid">
+      <div class="container pt-5">
+        <div class="row justify-content-center">
+          <!-------card1----->
+          <div class="card text-center p-3 m-2">
+            <i class="fas fa-shipping-fast h2 my-2"></i>
+            <div class="card-body p-2">
+              <h6 class="card-title mb-2 text-uppercase">Express Delivery</h6>
+              <p class="card-text text-muted">We provide express delivery services to our customers</p>
+            </div>
+          </div>
+          <!-------card3----->
+          <div class="card text-center p-3 m-2">
+            <i class="fas fa-hand-holding-usd h2 my-2"></i>
+            <div class="card-body p-2">
+              <h6 class="card-title mb-2 text-uppercase">
+                Money Back Gurantee
+              </h6>
+              <p class="card-text text-muted">We also provide money back gurantee to our customers.</p>
+            </div>
+          </div>
+          <!-------card2----->
+          <div class="card text-center p-3 m-2">
+            <i class="fas fa-handshake h2 my-2"></i>
+            <div class="card-body p-2">
+              <h6 class="card-title mb-2 text-uppercase">Direct Shipping</h6>
+              <p class="card-text text-muted">Point to point shipping from all around the world.</p>
+            </div>
+          </div>
+          <!-------card2----->
+          <div class="card text-center p-3 m-2">
+            <i class="fas fa-headset h2 my-2"></i>
+            <div class="card-body p-2">
+              <h6 class="card-title mb-2 text-uppercase">24/7 Support</h6>
+              <p class="card-text text-muted">24/7 support for the customers around the  globe.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------------------------------------------------Gallery Section--------------------------------->
+    <section class="gallery-product-section container-fluid p7-5">
+      <div class="container p-0">
+        <div class="title-section text-center mb-5 mt-3">
+          <h2 class="title">Our <span>Gallery</span></h2>
+        </div>
+        <!------------product row start-->
+        <div class="row justify-content-center">
+          <div 
+            class="col-lg-4 col-md-4 col-sm-6 col-10 mx-auto mb-3 product-box"
+          >
+          <a href="./product.html">
+            <div class="product-img-box col-10 p-0 mx-auto overflow-hidden">
+              <img src="./assets/images/A1 (5).jpg" />
+              <div class="hvr-box">
+                <a href="#">
+                  <div><i class="far fa-eye"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="far fa-heart"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                </a>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div 
+            class="col-lg-4 col-md-4 col-sm-6 col-10 mx-auto mb-3 product-box"
+          >
+          <a href="./product.html">
+            <div class="product-img-box col-10 p-0 mx-auto overflow-hidden">
+              <img src="./assets/images/A1 (7).jpg" />
+              <div class="hvr-box">
+                <a href="#">
+                  <div><i class="far fa-eye"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="far fa-heart"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                </a>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div 
+            class="col-lg-4 col-md-4 col-sm-6 col-10 mx-auto mb-3 product-box"
+          >
+          <a href="./product.html">
+            <div class="product-img-box col-10 p-0 mx-auto overflow-hidden">
+              <img src="./assets/images/Resistance Band EBC/M-5.jpg" />
+              <div class="hvr-box">
+                <a href="#">
+                  <div><i class="far fa-eye"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="far fa-heart"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                </a>
+              </div>
+            </div>
+          </a>
+          </div>
+          <div 
+            class="col-lg-4 col-md-4 col-sm-6 col-10 mx-auto mb-3 product-box"
+          >
+          <a href="./product.html">
+            <div class="product-img-box col-10 p-0 mx-auto overflow-hidden">
+              <img src="./assets/images/Resistance Band EBC/M-6.jpg" />
+              <div class="hvr-box">
+                <a href="#">
+                  <div><i class="far fa-eye"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="far fa-heart"></i></div>
+                </a>
+                <a href="#">
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                </a>
+              </div>
+            </div>
+          </a>
+          </div>
+         
+          
+          
+        </div>
+        <!------------pgallery row end-->
+      </div>
+    </section>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-dark" href="#">FiguredOut</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+    <!-- jquery js -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!--bsnav js-->
+    <script src="js/bsnav.min.js"></script>
+  </body>
+</html>
